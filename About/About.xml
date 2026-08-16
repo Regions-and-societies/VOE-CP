@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Regions and Societies: Outposts Expanded Patch</name>
+    <author>Regions and Societies Team</author>
+    <packageId>RegionsAndSocieties.VOECP</packageId>
+    <url>https://github.com/Regions-and-societies/VOE-CP</url>
+    <modVersion>0.1.0</modVersion>
+    <supportedVersions>
+        <li>1.6</li>
+    </supportedVersions>
+    <modDependencies>
+        <li>
+            <packageId>RegionsAndSocieties.Core</packageId>
+            <displayName>Regions and Societies</displayName>
+            <downloadUrl>https://github.com/Regions-and-societies/Core-MMF/releases/latest</downloadUrl>
+        </li>
+        <li>
+            <packageId>vanillaexpanded.outposts</packageId>
+            <displayName>Vanilla Outposts Expanded</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2688941031</steamWorkshopUrl>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>RegionsAndSocieties.Core</li>
+        <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+        <li>vanillaexpanded.outposts</li>
+    </loadAfter>
+    <description>Compatibility patch: Vanilla Outposts Expanded outposts are classified, populated and owned under Regions and Societies territory rules; world generation seeds VOE outposts around settlements; and outpost placement respects regional ownership.
+
+This patch binds directly against the Outposts assembly, so outposts are recognised by real type rather than by name guessing. Requires both Regions and Societies and Vanilla Outposts Expanded.</description>
+</ModMetaData>
