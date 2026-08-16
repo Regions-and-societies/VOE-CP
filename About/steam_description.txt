@@ -1,0 +1,31 @@
+[b]Version:[/b] v0.1.0 (Target: RimWorld 1.6)
+
+[img]https://i.imgur.com/JGg6Rqw.png[/img]
+
+[h1]Regions and Societies: Outposts Expanded Patch[/h1]
+Compatibility patch: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2688941031]Vanilla Outposts Expanded[/url] outposts are classified, populated and owned under [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3784666060]Regions and Societies[/url] territory rules; world generation seeds VOE outposts around settlements; and outpost placement respects regional ownership.
+
+[h2]What it does[/h2]
+[list]
+[*] [b]Typed outpost binding:[/b] outposts classify under territory rules and report their real occupant count as population - they weigh into ownership and demographics instead of reading zero.
+[*] [b]Placement respects ownership:[/b] when Regions and Societies refuses a tile, VOE's own placement check refuses it too, with the reason string shown right in VOE's UI.
+[*] [b]Worldgen outpost seeding:[/b] AI factions get outposts seeded around their settlements - the def picked by archetype (mining, logging, farming, hunting), the name from the faction's own name-maker, each staffed with a generated pawn.
+[/list]
+
+No settings of its own - all governance toggles live in Regions and Societies. Installed means enabled.
+
+[h2]Changelog (v0.1.0)[/h2]
+[list]
+[*] Initial release: Outposts integration extracted from Regions and Societies core into a typed compatibility patch binding the Outposts assembly directly.
+[/list]
+
+[h2]Requirements[/h2]
+[list]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3784666060]Regions and Societies[/url]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2688941031]Vanilla Outposts Expanded[/url]
+[/list]
+
+[h2]Source Code and Support[/h2]
+GitHub: [url]https://github.com/Regions-and-societies/VOE-CP[/url]
+Licence: [url=https://polyformproject.org/licenses/noncommercial/1.0.0/]PolyForm Noncommercial License 1.0.0[/url]
+Support development: [url]https://ko-fi.com/archdukejim[/url]

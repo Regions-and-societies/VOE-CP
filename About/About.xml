@@ -25,7 +25,20 @@
         <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
         <li>vanillaexpanded.outposts</li>
     </loadAfter>
-    <description>Compatibility patch: Vanilla Outposts Expanded outposts are classified, populated and owned under Regions and Societies territory rules; world generation seeds VOE outposts around settlements; and outpost placement respects regional ownership.
+    <description>Version: v0.1.0
 
-This patch binds directly against the Outposts assembly, so outposts are recognised by real type rather than by name guessing. Requires both Regions and Societies and Vanilla Outposts Expanded.</description>
+Compatibility patch: Vanilla Outposts Expanded outposts are classified, populated and owned under Regions and Societies territory rules; world generation seeds VOE outposts around settlements; and outpost placement respects regional ownership.
+
+Features:
+- Typed binding: outposts are recognised by real type and report their real occupant count as population, weighing into ownership and demographics.
+- Placement respects ownership: when Regions and Societies refuses a tile, VOE's own placement check refuses it too, with the reason shown in VOE's UI.
+- Worldgen seeding: AI factions get outposts seeded around their settlements, picked by archetype (mining, logging, farming, hunting), named by the faction's own name-maker and staffed with a generated pawn.
+
+Requires: Regions and Societies and Vanilla Outposts Expanded. No settings of its own - governance toggles live in Regions and Societies.
+
+--- Changelog (v0.1.0) ---
+- Initial release: Outposts integration extracted from Regions and Societies core into a typed compatibility patch binding the Outposts assembly directly.
+
+Source: https://github.com/Regions-and-societies/VOE-CP
+Support development: https://ko-fi.com/archdukejim</description>
 </ModMetaData>
