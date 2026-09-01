@@ -11,7 +11,7 @@ Welcome to the documentation for the **Vanilla Outposts Expanded compatibility p
 
 ## Before you start
 
-- **Requires both parents.** [Regions and Societies](https://steamcommunity.com/sharedfiles/filedetails/?id=3784666060) and [Vanilla Outposts Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=2688941031) must both be installed; the patch loads after both.
+- **Requires both parents.** [Regions and Societies](https://steamcommunity.com/sharedfiles/filedetails/?id=3784666060) — either the standard edition or the [Realistic Planets 2 edition](https://steamcommunity.com/sharedfiles/filedetails/?id=3784666526) — and [Vanilla Outposts Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=2688941031) must both be installed; the patch loads after both.
 - **Installed means enabled.** The patch has no settings of its own. The only relevant toggle is core's master governance switch, which lives in the Regions and Societies settings.
 - **Load order** is declared in About.xml: after Regions and Societies core, the Vanilla Expanded Framework and Vanilla Outposts Expanded. RimSort/RimPy and the game's own sorter handle it automatically.
 
