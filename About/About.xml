@@ -4,7 +4,7 @@
     <author>Regions and Societies Team</author>
     <packageId>RegionsAndSocieties.VOECP</packageId>
     <url>https://github.com/Regions-and-societies/VOE-CP</url>
-    <modVersion>0.1.0</modVersion>
+    <modVersion>0.1.1</modVersion>
     <supportedVersions>
         <li>1.6</li>
     </supportedVersions>
@@ -27,7 +27,7 @@
         <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
         <li>vanillaexpanded.outposts</li>
     </loadAfter>
-    <description>Version: v0.1.0
+    <description>Version: v0.1.1
 
 Compatibility patch: Vanilla Outposts Expanded outposts are classified, populated and owned under Regions and Societies territory rules; world generation seeds VOE outposts around settlements; and outpost placement respects regional ownership.
 
@@ -38,8 +38,8 @@ Features:
 
 Requires: Regions and Societies (either the standard or the Realistic Planets 2 edition) and Vanilla Outposts Expanded. No settings of its own - governance toggles live in Regions and Societies.
 
---- Changelog (v0.1.0) ---
-- Initial release: Outposts integration extracted from Regions and Societies core into a typed compatibility patch binding the Outposts assembly directly.
+--- Changelog (v0.1.1) ---
+- Works with both Regions and Societies editions: the hard dependency on the standard edition is gone, so Realistic Planets 2 edition players no longer see a false "missing dependency" warning. With no edition loaded at all, the mod now logs a plain warning naming both editions instead of erroring.
 
 Source: https://github.com/Regions-and-societies/VOE-CP
 Support development: https://ko-fi.com/archdukejim</description>
